@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1656614945",
+        "python_version": "3.8.8 (tags/v3.8.8:024d805, Feb 19 2021, 13:18:16) [MSC v.1928 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Elionnee\\Desktop\\2D Fighting Game\\2D Fighting Game\\venv\\Scripts\\mlagents-learn config\\MoveToPlayer.yaml --initialize-from=TryFourCombat --run-id=TryTenCombat --force",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.0+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1656615004"
+    },
+    "total": 58.9885185,
+    "count": 1,
+    "self": 0.008327299999997706,
+    "children": {
+        "run_training.setup": {
+            "total": 0.10642439999999986,
+            "count": 1,
+            "self": 0.10642439999999986
+        },
+        "TrainerController.start_learning": {
+            "total": 58.8737668,
+            "count": 1,
+            "self": 0.0004519999999956781,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 58.8733049,
+                    "count": 1,
+                    "self": 58.8733049
+                },
+                "trainer_threads": {
+                    "total": 1.6999999985500835e-06,
+                    "count": 1,
+                    "self": 1.6999999985500835e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 8.200000003455443e-06,
+                    "count": 1,
+                    "self": 8.200000003455443e-06
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "AI": {
+        "checkpoints": [
+            {
+                "steps": 259656,
+                "file_path": "results\\TryEightCombat\\AI\\AI-259656.onnx",
+                "reward": null,
+                "creation_time": 1656614052.7365077,
+                "auxillary_file_paths": [
+                    "results\\TryEightCombat\\AI\\AI-259656.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 259656,
+            "file_path": "results\\TryEightCombat\\AI.onnx",
+            "reward": null,
+            "creation_time": 1656614052.7365077,
+            "auxillary_file_paths": [
+                "results\\TryEightCombat\\AI\\AI-259656.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

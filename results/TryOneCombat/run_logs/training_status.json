@@ -1,0 +1,29 @@
+{
+    "AI": {
+        "checkpoints": [
+            {
+                "steps": 29593,
+                "file_path": "results\\TryOneCombat\\AI\\AI-29593.onnx",
+                "reward": -33.18400287628174,
+                "creation_time": 1656603879.9769156,
+                "auxillary_file_paths": [
+                    "results\\TryOneCombat\\AI\\AI-29593.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 29593,
+            "file_path": "results\\TryOneCombat\\AI.onnx",
+            "reward": -33.18400287628174,
+            "creation_time": 1656603879.9769156,
+            "auxillary_file_paths": [
+                "results\\TryOneCombat\\AI\\AI-29593.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

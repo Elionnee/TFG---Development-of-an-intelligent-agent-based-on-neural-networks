@@ -1,0 +1,29 @@
+{
+    "AI": {
+        "checkpoints": [
+            {
+                "steps": 393582,
+                "file_path": "results\\TryFiveCombat\\AI\\AI-393582.onnx",
+                "reward": -220.0,
+                "creation_time": 1656611119.4329634,
+                "auxillary_file_paths": [
+                    "results\\TryFiveCombat\\AI\\AI-393582.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 393582,
+            "file_path": "results\\TryFiveCombat\\AI.onnx",
+            "reward": -220.0,
+            "creation_time": 1656611119.4329634,
+            "auxillary_file_paths": [
+                "results\\TryFiveCombat\\AI\\AI-393582.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

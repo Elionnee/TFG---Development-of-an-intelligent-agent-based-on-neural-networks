@@ -1,0 +1,38 @@
+{
+    "AI": {
+        "checkpoints": [
+            {
+                "steps": 499992,
+                "file_path": "results\\Combat_v2\\AI\\AI-499992.onnx",
+                "reward": -283.0,
+                "creation_time": 1656662606.2016082,
+                "auxillary_file_paths": [
+                    "results\\Combat_v2\\AI\\AI-499992.pt"
+                ]
+            },
+            {
+                "steps": 500034,
+                "file_path": "results\\Combat_v2\\AI\\AI-500034.onnx",
+                "reward": -331.0,
+                "creation_time": 1656662606.2586212,
+                "auxillary_file_paths": [
+                    "results\\Combat_v2\\AI\\AI-500034.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500034,
+            "file_path": "results\\Combat_v2\\AI.onnx",
+            "reward": -331.0,
+            "creation_time": 1656662606.2586212,
+            "auxillary_file_paths": [
+                "results\\Combat_v2\\AI\\AI-500034.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

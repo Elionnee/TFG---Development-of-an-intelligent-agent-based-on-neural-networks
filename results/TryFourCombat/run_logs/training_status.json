@@ -1,0 +1,29 @@
+{
+    "AI": {
+        "checkpoints": [
+            {
+                "steps": 173046,
+                "file_path": "results\\TryFourCombat\\AI\\AI-173046.onnx",
+                "reward": null,
+                "creation_time": 1656607088.4566915,
+                "auxillary_file_paths": [
+                    "results\\TryFourCombat\\AI\\AI-173046.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 173046,
+            "file_path": "results\\TryFourCombat\\AI.onnx",
+            "reward": null,
+            "creation_time": 1656607088.4566915,
+            "auxillary_file_paths": [
+                "results\\TryFourCombat\\AI\\AI-173046.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

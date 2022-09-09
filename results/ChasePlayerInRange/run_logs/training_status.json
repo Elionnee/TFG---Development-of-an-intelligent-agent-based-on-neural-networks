@@ -1,0 +1,29 @@
+{
+    "AI": {
+        "checkpoints": [
+            {
+                "steps": 146067,
+                "file_path": "results\\ChasePlayerInRange\\AI\\AI-146067.onnx",
+                "reward": -34.5,
+                "creation_time": 1656617242.8671122,
+                "auxillary_file_paths": [
+                    "results\\ChasePlayerInRange\\AI\\AI-146067.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 146067,
+            "file_path": "results\\ChasePlayerInRange\\AI.onnx",
+            "reward": -34.5,
+            "creation_time": 1656617242.8671122,
+            "auxillary_file_paths": [
+                "results\\ChasePlayerInRange\\AI\\AI-146067.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.7.0+cu110"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1656679282",
+        "python_version": "3.8.8 (tags/v3.8.8:024d805, Feb 19 2021, 13:18:16) [MSC v.1928 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Elionnee\\Desktop\\2D Fighting Game\\2D Fighting Game\\venv\\Scripts\\mlagents-learn config/MoveToPlayer.yaml --initialize-from=Combat_v2 --run-id=Combat_v4 --force",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.0+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1656679349"
+    },
+    "total": 66.7864988,
+    "count": 1,
+    "self": 0.00593990000000133,
+    "children": {
+        "run_training.setup": {
+            "total": 0.09251710000000013,
+            "count": 1,
+            "self": 0.09251710000000013
+        },
+        "TrainerController.start_learning": {
+            "total": 66.68804180000001,
+            "count": 1,
+            "self": 0.00011999999999545707,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 66.6879085,
+                    "count": 1,
+                    "self": 66.6879085
+                },
+                "TrainerController._save_models": {
+                    "total": 1.3300000006211121e-05,
+                    "count": 1,
+                    "self": 1.3300000006211121e-05
+                }
+            }
+        }
+    }
+}
